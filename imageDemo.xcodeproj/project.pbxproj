@@ -14,6 +14,7 @@
 		366DE03D1B01E37800BDB5CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366DE03C1B01E37800BDB5CC /* Images.xcassets */; };
 		366DE0401B01E37800BDB5CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 366DE03E1B01E37800BDB5CC /* LaunchScreen.xib */; };
 		366DE04C1B01E37800BDB5CC /* imageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DE04B1B01E37800BDB5CC /* imageDemoTests.m */; };
+		366DE0621B01F40700BDB5CC /* LZImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DE0611B01F40700BDB5CC /* LZImageZoomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		366DE0451B01E37800BDB5CC /* imageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366DE04A1B01E37800BDB5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		366DE04B1B01E37800BDB5CC /* imageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageDemoTests.m; sourceTree = "<group>"; };
+		366DE0601B01F40700BDB5CC /* LZImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZImageZoomView.h; sourceTree = "<group>"; };
+		366DE0611B01F40700BDB5CC /* LZImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZImageZoomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		366DE02E1B01E37800BDB5CC /* imageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				366DE0601B01F40700BDB5CC /* LZImageZoomView.h */,
+				366DE0611B01F40700BDB5CC /* LZImageZoomView.m */,
 				366DE0331B01E37800BDB5CC /* AppDelegate.h */,
 				366DE0341B01E37800BDB5CC /* AppDelegate.m */,
 				366DE0361B01E37800BDB5CC /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				366DE0381B01E37800BDB5CC /* ViewController.m in Sources */,
+				366DE0621B01F40700BDB5CC /* LZImageZoomView.m in Sources */,
 				366DE0351B01E37800BDB5CC /* AppDelegate.m in Sources */,
 				366DE0321B01E37800BDB5CC /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				366DE0511B01E37800BDB5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366DE0521B01E37800BDB5CC /* Build configuration list for PBXNativeTarget "imageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				366DE0541B01E37800BDB5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
